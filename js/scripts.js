@@ -21,6 +21,9 @@ $(document).ready(function() {
    
     $(".person1").text(person1Input);
 
+
+    
+
     if (drink === 'coffee' && cheetos === 'regular' && sex === 'yes' && (aliens === 'yes' || aliens === 'no')) {
       $("#match").fadeIn("slow");
       $(".lang").text("C#").show();
@@ -57,6 +60,8 @@ $(document).ready(function() {
       $("#match").fadeIn("slow");
       $(".lang").text("Swift").show();
     }
+   
     $("#formOne")[0].reset();
+    
   });
 });
