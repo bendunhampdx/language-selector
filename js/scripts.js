@@ -12,44 +12,45 @@ $(document).ready(function() {
 
     const limbs = $("input:radio[name=limbs]:checked").val();
 
-
+    const person1Input = $("input#person1").val();
    
+    $(".person1").text(person1Input);
 
     if (drink === 'coffee' && cheetos === 'regular' && sex === 'yes' && (aliens === 'yes' || aliens === 'no')) {
       $("#match").show();
-      $(".person1").text("C#").show();
+      $(".lang").text("C#").show();
     } 
     else if (drink === 'coffee' && cheetos === 'flaming' && sex === 'no' && aliens === 'yes' && limbs === 'feet' ) {
       $("#match").show();
-      $(".person1").text("C#").show();
+      $(".lang").text("C#").show();
     }
     else if (drink === 'tea' && cheetos === 'flaming' && sex === 'no' && limbs === 'hands' && (aliens === 'yes' || aliens === 'no')) {
       $("#match").show();
-      $(".person1").text("JavaScript").show();
+      $(".lang").text("JavaScript").show();
     }
     else if (drink === 'coffee' && cheetos === 'flaming' && sex === 'yes' && aliens === 'yes' && limbs === 'feet') {
       $("#match").show();
-      $(".person1").text("Ruby").show();
+      $(".lang").text("Ruby").show();
     }
     else if (drink === 'tea' && cheetos === 'regular' && sex === 'no' && aliens === 'yes' && limbs === 'feet') {
       $("#match").show();
-      $(".person1").text("Ruby").show();
+      $(".lang").text("Ruby").show();
     }
     else if (drink === 'tea' && cheetos === 'regular' && sex === 'no' && aliens === 'no' && limbs === 'hands') {
       $("#match").show();
-      $(".person1").text("Python").show();
+      $(".lang").text("Python").show();
     }
     else if (drink === 'tea' && cheetos === 'regular' && sex === 'yes' && aliens === 'yes' && limbs === 'hands') {
       $("#match").show();
-      $(".person1").text("Python").show();
+      $(".lang").text("Python").show();
     }
     else if (drink === 'tea' && cheetos === 'regular' && sex === 'yes' && aliens === 'no' && limbs === 'feet') {
       $("#match").show();
-      $(".person1").text("Rust").show();
+      $(".lang").text("Rust").show();
     }
     else {
       $("#match").show();
-      $(".person1").text("Swift").show();
+      $(".lang").text("Swift").show();
     }
   });
 });
