@@ -23,7 +23,7 @@ $(document).ready(function() {
       $("#match").show();
       $(".person1").text("C#").show();
     }
-    else if (drink === 'tea' && cheetos === 'flaming' && sex === 'no' && (aliens === 'yes' || aliens === 'no')) {
+    else if (drink === 'tea' && cheetos === 'flaming' && sex === 'no' && limbs === 'hands' && (aliens === 'yes' || aliens === 'no')) {
       $("#match").show();
       $(".person1").text("JavaScript").show();
     }
@@ -31,7 +31,15 @@ $(document).ready(function() {
       $("#match").show();
       $(".person1").text("Ruby").show();
     }
+    else if (drink === 'tea' && cheetos === 'regular' && sex === 'no' && aliens === 'yes' && limbs === 'feet') {
+      $("#match").show();
+      $(".person1").text("Ruby").show();
+    }
     else if (drink === 'tea' && cheetos === 'regular' && sex === 'no' && aliens === 'no' && limbs === 'hands') {
+      $("#match").show();
+      $(".person1").text("Python").show();
+    }
+    else if (drink === 'tea' && cheetos === 'regular' && sex === 'yes' && aliens === 'yes' && limbs === 'hands') {
       $("#match").show();
       $(".person1").text("Python").show();
     }
