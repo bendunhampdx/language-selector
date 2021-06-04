@@ -1,0 +1,14 @@
+#match {
+  display: none;
+}
+
+.btn {
+  background-color: rgb(193, 143, 240);
+}
+
+body {
+  background-color: aliceblue;
+}
+.container h1 {
+  text-align: center;
+}
