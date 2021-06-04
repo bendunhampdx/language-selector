@@ -17,4 +17,17 @@ body {
 }
 .container p {
   text-align: center;
+  border-top: solid ;
+  font-size: larger;
+}
+
+.text {
+font-size: xx-large;
+}
+.person1 {
+  text-align: center;
+  font-size: xx-large;
+}
+.container h3 {
+  text-align: center;
 }

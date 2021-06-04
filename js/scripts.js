@@ -2,23 +2,26 @@ $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
 
-    const gender = $("input:radio[name=gender]:checked").val();
+    const A = $("input:radio[name=drink]:checked").val();
 
-    const age = $("input:radio[name=age]:checked").val();
+    const B = $("input:radio[name=cheetos]:checked").val();
 
-    const richAttractive = $("input:radio[name=rich-or-attractive]:checked").val();
+    const C = $("input:radio[name=sex]:checked").val();
 
-    const doa = $("input:radio[name=alive-dead]:checked").val();
+    const D = $("input:radio[name=aliens]:checked").val();
 
-    const doa = $("input:radio[name=alive-dead]:checked").val();
+    const E = $("input:radio[name=limbs]:checked").val();
 
-    if (gender === 'male' && age === 'ageGroup2' && doa === 'alive' && (richAttractive === 'rich' || richAttractive === 'attractive')) {
+
+   
+
+    if (A === 'coffee' && B === 'regular' && C === 'yes' && (D === 'yes' || D === 'no')) {
       $("#match").show();
-      $(".person1").text("You got Ryan Gosling!").show();
+      $(".person1").text("C#").show();
     } 
-    else if (gender === 'female' && age === 'ageGroup3' && doa === 'alive' && (richAttractive === 'rich' || richAttractive === 'attractive')) {
+    else if (A === 'tea' && B === 'flaming' && C === 'no' && (D === 'yes' || D === 'no')) {
       $("#match").show();
-      $(".person1").text("You got Jennifer Aniston!").show();
+      $(".person1").text("JavaScript!").show();
     }
     else {
       $("#match").show();
