@@ -6,6 +6,7 @@ $(document).ready(function() {
       $("#match").fadeIn("slow");
     });
 
+
     const drink = $("input:radio[name=drink]:checked").val();
 
     const cheetos = $("input:radio[name=cheetos]:checked").val();
@@ -56,7 +57,6 @@ $(document).ready(function() {
       $("#match").fadeIn("slow");
       $(".lang").text("Swift").show();
     }
-   
+    $("#formOne")[0].reset();
   });
 });
-
