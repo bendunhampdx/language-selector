@@ -6,6 +6,7 @@ body {
 }
 .btn {
   background-color: rgb(193, 143, 240);
+  margin-top: 2rem;
 }
 
 .container {
@@ -30,4 +31,8 @@ font-size: xx-large;
 }
 .container h3 {
   text-align: center;
+}
+
+.radio {
+  background-color: rgb(174, 220, 235);
 }
