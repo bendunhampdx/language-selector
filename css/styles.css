@@ -3,16 +3,19 @@
 }
 body {
   margin: 2%;
-  background-color: rgb(203, 224, 241);
+  background-color: #6F5F9E;
 }
 .btn {
-  background-color: rgb(193, 143, 240);
+  background-color: #DACEFF;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .container {
-  border:solid thick blueviolet;
+  border:solid #A89F42 ;
+  border-width: 25px;
   padding: 2%;
+  background-color: #E6DC85;
 }
 .container h1 {
   text-align: center;
@@ -21,6 +24,7 @@ body {
   text-align: center;
   border-top: solid ;
   font-size: larger;
+  background-color: #DACEFF;
 }
 
 .text {
@@ -34,6 +38,6 @@ font-size: xx-large;
   text-align: center;
 }
 
-.radio {
-  background-color: rgb(174, 220, 235);
+.container h4 {
+  color: #6F5F9E
 }

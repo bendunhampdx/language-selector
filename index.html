@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
@@ -8,13 +9,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Programming Language Selector</title>
 </head>
+
 <body>
 
   <div class="container">
     <h1>Welcome to the <em>Programming Language Selector</em></h1>
-    <p>We know choosing a new programming language to learn can be difficult, so we've teamed up with engineers at NASA to develop an algorithm to determine the perfect option for you.</p>
+    <p>We know choosing a new programming language to learn can be     difficult, so we've teamed up with engineers at NASA
+    to develop an algorithm to determine the perfect option for you.</p>
     <form id="formOne">
-      <h2>Do you prefer coffee or tea?</h2>
+      <h4>Do you prefer coffee or tea?</h4>
       <div class="radio">
         <label>
           <input type="radio" name="drink" value="coffee" checked>
@@ -28,12 +31,12 @@
         </label>
       </div>
 
-      <h2>Do you prefer regular or flaming hot Cheetos?</h2>
+      <h4>Do you prefer regular or <span style="color:rgb(255, 0, 0)"><em>flaming hot</em></span> Cheetos?</h4>
       <div class="radio">
-          <label>
+        <label>
           <input type="radio" name="cheetos" value="regular" checked>
           Regular
-          </label>
+        </label>
       </div>
       <div class="radio">
         <label>
@@ -42,12 +45,12 @@
         </label>
       </div>
 
-      <h2>Are you excited for the new Sex in the City season?</h2>
+      <h4>Are you excited for the new Sex in the City season?</h4>
       <div class="radio">
-          <label>
+        <label>
           <input type="radio" name="sex" value="yes" checked>
           Yes
-          </label>
+        </label>
       </div>
       <div class="radio">
         <label>
@@ -56,12 +59,12 @@
         </label>
       </div>
 
-      <h2>Do you believe in the existence of extraterrestrial life?</h2>
+      <h4>Do you believe in the existence of extraterrestrial life?</h4>
       <div class="radio">
-          <label>
+        <label>
           <input type="radio" name="aliens" value="yes" checked>
           Yes
-          </label>
+        </label>
       </div>
       <div class="radio">
         <label>
@@ -70,12 +73,12 @@
         </label>
       </div>
 
-      <h2>Which would you choose if you had to lose your hands or your feet?</h2>
+      <h4>Which would you choose if you had to lose your hands or your feet?</h4>
       <div class="radio">
-          <label>
+        <label>
           <input type="radio" name="limbs" value="hands" checked>
           Hands
-          </label>
+        </label>
       </div>
       <div class="radio">
         <label>
@@ -84,19 +87,20 @@
         </label>
       </div>
 
-      
+
       <div class="form-group">
-        <label for="person1">Name</label>
+        <h4><label for="person1">Enter your name below</label></h4>
         <input id="person1" class="form-control" type="text" required>
       </div>
       <button type="submit" class="btn">Submit your results!</button>
       <div id="match">
         <h3><span class="person1"></span>, we have determined the best language for you to learn is:</h3>
-        <p>
-          <span class="lang"></span>
-        </p>
+      <p>
+        <span class="lang"></span>
+      </p>
       </div>
     </form>
   </div>
 </body>
+
 </html>
